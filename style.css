@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-gap: 5px;
+}
+
+#bg {
+    margin: auto;
+    background-color: rgba(0, 166, 147, .05);
+    max-width: fit-content;
+    padding: 20px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 500;
+    border: none;
+    background-color: #90EE90;
+}
+
+.btn-alt {
+    background-color: #50C878;
+}
+
+#restart {
+    display: none;
+    padding: 0;
+    border-radius: 12px;
+    color: #000;
+    font-size: 24px;
+}

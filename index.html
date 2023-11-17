@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="bg">
+        <h1>Tic-Tac-Toe</h1>
+        <div id="game-board">
+            <button onclick="makeMove(0)" id="0"></button>
+            <button onclick="makeMove(1)" id="1" class="btn-alt"></button>
+            <button onclick="makeMove(2)" id="2"></button>
+            <button onclick="makeMove(3)" id="3" class="btn-alt"></button>
+            <button onclick="makeMove(4)" id="4"></button>
+            <button onclick="makeMove(5)" id="5" class="btn-alt"></button>
+            <button onclick="makeMove(6)" id="6"></button>
+            <button onclick="makeMove(7)" id="7" class="btn-alt"></button>
+            <button onclick="makeMove(8)" id="8"></button>
+        </div>
+        <p id="result"></p>
+        <button onclick="location.reload();" id="restart">Újra</button>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
